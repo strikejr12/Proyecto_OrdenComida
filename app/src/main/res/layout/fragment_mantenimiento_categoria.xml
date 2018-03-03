@@ -1,0 +1,43 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.computer.proyecto_ordencomida.MantenimientoCategoriaFragment"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/edit_mante_NomCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/edit_mante_URLimagenCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="URLImagen"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/btn_mante_categoria_grabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grabar"/>
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvw_Categoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

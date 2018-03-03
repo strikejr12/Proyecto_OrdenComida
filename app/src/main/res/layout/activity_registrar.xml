@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.computer.proyecto_ordencomida.RegistrarActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_reg_user"
+            android:hint="Ingrese Nuevo Email"
+            android:text="dj@dj.com"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="34sp"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:tooltipText="hello, ingresa email"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/edit_reg_pass"
+            android:hint="Ingrese Password"
+            android:text="123456"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            android:fontFamily="sans-serif"
+            android:maxLength="30"
+            android:singleLine="true"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reg_registrar"
+        android:onClick="registrar"
+        android:text="Registrar"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+
+        android:shadowColor="@android:color/black"
+        />
+
+</RelativeLayout>

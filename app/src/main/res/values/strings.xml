@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Proyecto_OrdenComida</string>
+    <string name="slogan">No importa donde estés: Si estás en casa,
+                            en la oficina, o en la playa. Nosotros te
+                            encontraremos y te llevaremos la comida</string>
+    <string name="title_activity_home">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">148338359138800</string>
+    <string name="fb_login_protocol_scheme">fb28759527865892</string>
+
+    <string name="error_login">Error a la hora de ingresar</string>
+    <string name="cancel_login">Se canceló el ingreso</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_menu_mantenimiento_categoria">MANTENIMIENTO CATEGORIA</string>
+    <string name="title_activity_mante_categoria">ManteCategoria</string>
+    <string name="title_activity_mante_comida">ManteComida</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

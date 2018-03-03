@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "361848266377",
+    "firebase_url": "https://proyectoordencomida.firebaseio.com",
+    "project_id": "proyectoordencomida",
+    "storage_bucket": "proyectoordencomida.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361848266377:android:2ad1dc3c4c53985e",
+        "android_client_info": {
+          "package_name": "com.example.computer.proyecto_ordencomida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361848266377-fi2rna0tr7r0f0blo3371o7slsjkc8a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.computer.proyecto_ordencomida",
+            "certificate_hash": "0abcfbc56f506971018048c217861ace44f76e51"
+          }
+        },
+        {
+          "client_id": "361848266377-lqnhckc4q1v0mhbj51ilktq1k2g8d66l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlvm9YVUK1ZLR_gIGGR9tn_cSI-hgY2uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361848266377-lqnhckc4q1v0mhbj51ilktq1k2g8d66l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

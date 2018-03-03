@@ -1,0 +1,83 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.computer.proyecto_ordencomida.MantenimientoComidaFragment"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/edit_mantecomida_NombreComida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/edit_mantecomida_Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripcion"/>
+
+    <!--
+    <EditText
+        android:id="@+id/edit_mantecomida_CategoriaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Id Categoria"/>
+-->
+
+    <Spinner
+        android:id="@+id/spn_mantecomida_Categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edit_mantecomida_URLImagenComida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="URLimagen"/>
+
+
+    <EditText
+        android:id="@+id/edit_mantecomida_Precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Precio"/>
+    <EditText
+        android:id="@+id/edit_mantecomida_Descuento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descuento"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/btn_mantecomida_grabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grabar"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvw_Comida"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

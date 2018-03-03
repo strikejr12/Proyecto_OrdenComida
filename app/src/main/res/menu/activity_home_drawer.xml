@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/ic_library_add_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Mantenimiento categoria" />
+        <item
+            android:id="@+id/nav_ordenes"
+            android:icon="@drawable/ic_layers_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Mantenimiento comida" />
+        <item
+            android:id="@+id/nav_ubicanos"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Ubicanos" />
+
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Cerrar Sesión" />
+    </group>
+
+
+
+</menu>
